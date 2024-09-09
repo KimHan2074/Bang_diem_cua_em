@@ -1,0 +1,25 @@
+.container{
+    background-color: gray;
+    border: 1px solid red;
+    width: 50%;
+    height: auto;
+}
+.Title{
+    color: rgb(5, 5, 124);
+    text-align: center;
+}
+#hop_lon{
+    margin-left: 20px;
+}
+.hop_nho{
+    margin: 15px 0;
+}
+.hop_nut{
+    text-align: center;
+}
+#nhap_3{
+    margin-left: 43px;
+}
+#ketqua{
+    font-size: 25px;
+}

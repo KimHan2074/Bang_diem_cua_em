@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bang_diem.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Title">Bảng điểm của em</h1>
+        <form action="" id="hop_input">
+            <div class="hop_nho">
+                <label for="">Semester 1: </label>
+                <input type="number" name="" id="nhap_1">
+            </div>
+
+            <div class="hop_nho">
+                <label for="">Semester 2: </label>
+                <input type="number" name="" id="nhap_2">
+            </div>
+
+            <div class="hop_nho">
+                <label for="">Year: </label>
+                <select name="" id="nhap_3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <div class="hop_nho">
+                <label for="">Summarise: </label>
+                <input type="number" name="" id="result">
+            </div>
+        </form>
+
+        <div class="kp">
+            <p id="ketqua"></p>
+        </div>
+    
+        <div class="hop_nut">
+            <button id="nut" onclick="OK()">Ok</button>
+            <button id="nut" onclick="Cancel()">Cancel</button>
+        </div>
+    
+        <script src="bang_diem.js"></script>
+    </div>
+</body>
+</html>
